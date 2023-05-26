@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#intro {
+  background-color: #495E57;
+}
+
+#specials article {
+  background-color: #EDEFEE;
+}
+
+#testimonialsheader {
+  background-color: #495E57;
+}
+
+#testimonials {
+  background-color: #495E57;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  border-radius: 16px;
+}

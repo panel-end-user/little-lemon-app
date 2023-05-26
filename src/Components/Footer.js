@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer>
+        <footer className="flexcontainer">
             <img src=""></img>
             <section>
                 <nav>
