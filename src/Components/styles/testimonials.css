@@ -1,0 +1,47 @@
+#testimonials article {
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 50px;
+    max-width: 250px;
+}
+
+#testimonials {
+    background-color: #495E57;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#testimonials h1 {
+    color: white;
+}
+
+#testimonials p {
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    color: #495E57;
+    margin: 10px;
+}
+
+#testimonials h4 {
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    margin: 10px;
+}
+
+#reviews {
+    align-items: stretch;
+}
+
+#testimonials img {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    #testimonials article {
+        align-self: center;
+    }
+}

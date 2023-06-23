@@ -1,0 +1,39 @@
+#aboutsection {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#aboutsection article {
+    text-align: left;
+}
+
+#aboutsection h2 {
+    font-family: 'Markazi Text', serif;
+    font-size: 40pt;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+#aboutsection p {
+    font-family: 'Karla', sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#aboutsection img {
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+#aboutsection .flexcontainer {
+    gap: 5vw;
+}
+
+#aboutsection h1 {
+    white-space: nowrap;
+}

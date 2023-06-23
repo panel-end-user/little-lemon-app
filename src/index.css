@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Markazi+Text:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,35 +21,55 @@ code {
 
 .flexcontainer {
   display: flex;
-  justify-content: center;
-  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#intro {
-  background-color: #495E57;
+@media only screen and (max-width: 900px) {
+  .flexcontainer {
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
 }
 
-#specials article {
-  background-color: #EDEFEE;
-}
-
-#testimonialsheader {
-  background-color: #495E57;
-}
-
-#testimonials {
-  background-color: #495E57;
-}
-
-footer {
-  background-color: black;
-  color: white;
+@media only screen and (min-width: 901px) {
+  .flexcontainer {
+    flex-direction: row;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
 }
 
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
-img {
+button {
+  background-color: #F4CE14;
+  border: none;
   border-radius: 16px;
+  padding: 16px;
+  transition-duration: 0.3s;
+  font-family: 'Karla', sans-serif;
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-family: 'Markazi Text', serif;
+  font-size: 64pt;
+  font-weight: 500;
+}
+
+form {
+  display: grid;
+  max-width: 200px;
+  gap: 20px;
 }

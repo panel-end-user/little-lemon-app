@@ -1,0 +1,57 @@
+#footersection {
+    background-color: #333333;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footersection section {
+    text-align: left;
+}
+
+#footersection .flexcontainer {
+    align-items: flex-start;
+}
+
+#footersection a:link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+#footersection a:visited {
+    color: white;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+#footersection p {
+    color: white;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+#footersection li {
+    font-family: 'Karla', sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+#footersection h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 900px) {
+    #footersection section {
+        margin-top: 50px;
+    }
+}
