@@ -1,7 +1,7 @@
 import './styles/header.css'
 import {Link} from 'react-router-dom'
 import logo from '../Images/icons_assets/Logo .svg'
-import hamburger from '../Images/icons_assets/🦆 icon _hamburger menu.svg'
+import hamburger from '../Images/icons_assets/icon _hamburger menu.svg'
 import basket from '../Images/icons_assets/Basket.svg'
 
 function Header() {
