@@ -60,8 +60,8 @@ function Specials() {
                 {
                     buttonKeys.map(key => {
                         return (
-                            <div id='horizontal'>
-                                <button key={key}>Order for Delivery</button>
+                            <div id='horizontal' key={key}>
+                                <button>Order for Delivery</button>
                             </div>
                         )
                     })
