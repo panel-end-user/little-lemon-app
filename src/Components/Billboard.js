@@ -14,7 +14,7 @@ function Billboard() {
                         <button>Reserve a Table</button>
                     </Link>
                 </article>
-                <img src={restaurantfood} width="367px" alt="A restaurant worker holding food." />
+                <img src={restaurantfood} alt="A restaurant worker holding food." />
             </section>
         </div>
     )

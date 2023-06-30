@@ -1,11 +1,17 @@
 #specials article {
     background-color: #EDEFEE;
-    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     margin-top: 50px;
-    max-width: 350px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgray;
+    max-width: 100%;
+    border: solid 1px lightgray;
+    border-bottom-style: none;
+    flex: 1 1 0;
+}
+
+#specials .flexcontainer {
+    gap: 2vw;
+    flex: 1 1 0;
 }
 
 #specials {
@@ -17,6 +23,7 @@
 #specials img {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+    max-width: 100%;
 }
 
 #specials h4 {
@@ -25,6 +32,13 @@
     font-size: 18pt;
     font-weight: 700;
     margin: 10px;
+}
+
+#specials h4.price {
+    font-size: 16pt;
+    font-weight: 500;
+    margin: 10px;
+    color: #EE9972;
 }
 
 #specials p {
@@ -40,11 +54,54 @@
     align-items: stretch;
 }
 
-@media only screen and (max-width: 900px) {
+#horizontal button {
+    margin: 10px;
+}
+
+#vertical {
+    display: none;
+    margin: 10px;
+}
+
+#horizontal {
+    background-color: #EDEFEE;
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: solid 1px lightgray;
+    border-top-style: none;
+}
+
+#orderbuttons {
+    align-items: stretch;
+}
+
+.flexcontainer2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1080px) {
     #specials article {
         align-self: center;
+        border: solid 1px lightgray;
+        border-radius: 16px;
     }
-    #specials button {
-        margin-top: 30px;
+    h1 + button {
+        margin-top: 10px;
+    }
+    #horizontal {
+        display: none;
+    }
+    #vertical {
+        display: inline-block;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #specials .flexcontainer2 {
+        flex-direction: column;
     }
 }

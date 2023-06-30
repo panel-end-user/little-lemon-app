@@ -1,0 +1,83 @@
+#bookingform input.focused:invalid {
+    border: 1px solid red;
+}
+
+#bookingform p {
+    color: red;
+    font-family: 'Karla', sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    margin-top: -2em;
+    display: none;
+}
+
+#bookingform input.focused:invalid + p {
+    display: inline-block;
+}
+
+#bookingform .flexcontainer {
+    align-items: center;
+    flex-direction: column;
+}
+
+#bookingform img {
+    border-radius: 16px;
+    max-width: 100%;
+}
+
+#bookingform {
+    background-color: #495E57;
+    padding-top: 50px;
+}
+
+#bookingform h1 {
+    color: #F4CE14;
+}
+
+#bookingform form {
+    background-color: white;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+    font-family: 'Karla', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    width: 100%;
+}
+
+#bookingform input {
+    border: none;
+    border-radius: 0.5em;
+    background-color: #EDEFEE;
+    padding: 0.5em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    box-shadow: inset 0 0 3px darkgray;
+    transition-duration: 0.3s;
+}
+
+#bookingform select {
+    border: none;
+    border-radius: 0.5em;
+    background-color: #EDEFEE;
+    padding: 0.5em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    box-shadow: inset 0 0 3px darkgray;
+    transition-duration: 0.3s;
+}
+
+#bookingform button {
+    margin-top: 1em;
+}
+
+#bookingform input:hover {
+    transition-duration: 0.3s;
+    background-color: lightgray;
+}
+
+#bookingform select:hover {
+    transition-duration: 0.3s;
+    background-color: lightgray;
+}

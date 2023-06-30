@@ -12,11 +12,11 @@ function Footer() {
                         <h3>Navigation</h3>
                         <ul>
                             <li><Link to='/'>Home</Link></li>
-                            <li><p>About</p></li>
-                            <li><p>Menu</p></li>
+                            <li><Link to='/'>About</Link></li>
+                            <li><Link to='/'>Menu</Link></li>
                             <li><Link to='/booking'>Reservations</Link></li>
-                            <li><p>Order Online</p></li>
-                            <li><p>Login</p></li>
+                            <li><Link to='/'>Order Online</Link></li>
+                            <li><Link to='/'>Login</Link></li>
                         </ul>
                     </nav>
                 </section>

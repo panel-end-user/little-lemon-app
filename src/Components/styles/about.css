@@ -20,7 +20,6 @@
     font-size: 18pt;
     font-weight: 500;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 #aboutsection img {
@@ -36,4 +35,14 @@
 
 #aboutsection h1 {
     white-space: nowrap;
+}
+
+@media only screen and (max-width: 1300px) {
+    #aboutsection .flexcontainer {
+        flex-direction: column;
+        gap: 0px;
+    }
+    #aboutsection img {
+        margin-top: 50px;
+    }
 }

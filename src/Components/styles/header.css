@@ -36,14 +36,17 @@ header {
     display: none;
 }
 
-@media only screen and (max-width: 900px) {
-    #navigation a {
+@media only screen and (max-width: 1080px) {
+    #navigation li {
         display: none;
     }
-    #hamburger {
+    li#hamburger {
         display: inline-block;
     }
-    #basket {
+    li#basket {
+        display: inline-block;
+    }
+    li#logo {
         display: inline-block;
     }
     #navigation.flexcontainer {

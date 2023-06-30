@@ -11,22 +11,22 @@ function Testimonials() {
                 <article>
                     <h4>Name</h4>
                     <img src={profileimage} alt='profile placeholder' />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur consequat magna, ut ultricies nulla lobortis sed.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
                 <article>
                     <h4>Name</h4>
                     <img src={profileimage} alt='profile placeholder' />
-                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras eu mi augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras eu mi augue.</p>
                 </article>
                 <article>
                     <h4>Name</h4>
                     <img src={profileimage} alt='profile placeholder' />
-                    <p>Nullam vulputate, quam at pharetra tincidunt, quam mi euismod magna, gravida pharetra elit erat ac nisl. Aenean et ligula imperdiet arcu tempus eleifend.</p>
+                    <p>Nullam vulputate, quam at pharetra tincidunt, quam mi euismod magna, gravida pharetra elit erat ac nisl.</p>
                 </article>
                 <article>
                     <h4>Name</h4>
                     <img src={profileimage} alt='profile placeholder' />
-                    <p>Duis ex leo, sollicitudin varius eleifend id, porttitor vel eros. Nulla facilisi.</p>
+                    <p>Duis ex leo, sollicitudin varius eleifend id, porttitor vel eros.</p>
                 </article>
             </section>
         </div>

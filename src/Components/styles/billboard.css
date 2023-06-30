@@ -7,11 +7,13 @@
 
 #billboard article {
     text-align: left;
-    margin-right: 15vw;
+    flex: 1 1 0;
 }
 
 #billboard .flexcontainer {
     align-items: flex-start;
+    flex: 1 1 0;
+    gap: 15vw;
 }
 
 #billboard h1 {
@@ -37,10 +39,19 @@
 #billboard img {
     border-radius: 16px;
     width: 100%;
+    max-width: 367px;
+    flex: 1 1 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1300px) {
     #billboard img {
         margin-top: 50px;
+    }
+    #billboard .flexcontainer {
+        flex-direction: column;
+        gap: 0px;
+    }
+    #billboard img {
+        max-width: 100%;
     }
 }

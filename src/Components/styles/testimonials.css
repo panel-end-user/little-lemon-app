@@ -2,7 +2,13 @@
     background-color: white;
     border-radius: 16px;
     margin-top: 50px;
-    max-width: 250px;
+    flex: 1 1 0;
+    width: 100%;
+}
+
+#testimonials .flexcontainer {
+    gap: 2vw;
+    flex: 1 1 0;
 }
 
 #testimonials {
@@ -40,7 +46,7 @@
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1080px) {
     #testimonials article {
         align-self: center;
     }
